@@ -21,9 +21,19 @@ The business model consists of the following entities.
 - Employee, i want to be able to register if i'm not registered yet so that i can start working for us.
 
 ## Entities
-
 1. **User**: name, email, password, dni.
 2. **Players**: online or offline
 3. **Videogames**
 4. **Catalog**
 5. **BankAccount**
+
+## Process
+
+
+## web Services
+- Login -> User.login
+- createPlayer -> Player
+- createSeller -> Seller
+- createManager -> Manager
+- markVideoGame -> Manager.mark_News
+- registerPlataformNews -> Manager:deactivate_News
